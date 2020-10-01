@@ -5,10 +5,10 @@ FrozenCookies.preferenceValues = {
         'hint':'Auto clicking options:'
     },
     'autoClick': {
-        'hint': 'Click the large cookie',
-        'display': ['Autoclick OFF', 'Autoclick ON'],
+        'hint': '大きなクッキーをクリック',
+        'display': ['自動クリック OFF', '自動クリック ON'],
         'default': 0,
-        'extras': '<a class="option" id="cookieClickSpeed" onclick="updateSpeed(\'cookieClickSpeed\');">${cookieClickSpeed} clicks/sec</a>'
+        'extras': '<a class="option" id="cookieClickSpeed" onclick="updateSpeed(\'cookieClickSpeed\');">${cookieClickSpeed} クリック/秒</a>'
     },
     'autoFrenzy': {
         'hint': 'Click the large cookie during Clicking Frenzies',
