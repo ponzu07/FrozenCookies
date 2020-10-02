@@ -159,7 +159,7 @@ var numberFormatters = [
         ' 万',
         ' 億',
         ' 兆',
-        ' quadrillion',
+        ' 兆',
         ' quintillion',
         ' sextillion',
         ' septillion',
