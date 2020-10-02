@@ -2,81 +2,81 @@ FrozenCookies.preferenceValues = {
 
     // clicking options
     'clickingOptions':{
-        'hint':'Auto clicking options:'
+        'hint':'自動クリックオプション:'
     },
     'autoClick': {
         'hint': '大きなクッキーをクリック',
-        'display': ['自動クリック OFF', '自動クリック ON'],
+        'display': ['OFF', 'ON'],
         'default': 0,
         'extras': '<a class="option" id="cookieClickSpeed" onclick="updateSpeed(\'cookieClickSpeed\');">${cookieClickSpeed} クリック/秒</a>'
     },
     'autoFrenzy': {
-        'hint': 'Click the large cookie during Clicking Frenzies',
-        'display': ['Autofrenzy OFF', 'Autofrenzy ON'],
+        'hint': 'クリックフレンジー中に大きなクッキーをクリックする',
+        'display': ['OFF', 'ON'],
         'default': 0,
-        'extras': '<a class="option" id="frenzyClickSpeed" onclick="updateSpeed(\'frenzyClickSpeed\');">${frenzyClickSpeed} clicks/sec</a>'
+        'extras': '<a class="option" id="frenzyClickSpeed" onclick="updateSpeed(\'frenzyClickSpeed\');">${frenzyClickSpeed} クリック/秒</a>'
     },
     'autoGC': {
-        'hint': 'Automatically click Golden Cookies when they appear',
-        'display': ["Autoclick GC OFF", "Autoclick GC ON"],
+        'hint': 'ゴールデンクッキーが表示されたら自動でクリック',
+        'display': ["OFF", "ON"],
         'default': 0
     },
     'autoReindeer': {
-        'hint': 'Automatically click reindeer',
-        'display': ['Autoclick Reindeer OFF', 'Autoclick Reindeer ON'],
+        'hint': 'トナカイを自動でクリック',
+        'display': ['OFF', 'ON'],
         'default': 0
     },
     'autoFortune': {
-        'hint': 'Automatically click the news ticker when Fortune News appears',
-        'display': ["Auto Fortune OFF", "Auto Fortune ON"],
+        'hint': 'フォーチュンニュースが表示されると自動的にニュースティッカーをクリックする',
+        'display': ["OFF", "ON"],
         'default': 0
     },
 
     // autobuy options
     'buyingOptions':{
-        'hint':'Auto buying options:'
+        'hint':'自動購入オプション:'
     },
     'autoBuy': {
-        'hint': 'Automatically buy the most efficient building when you\'ve met its cost',
-        'display': ["Autobuy OFF", "Autobuy ON"],
+        'hint': 'コストを満たしたときに、最も効率的な建物を自動的に購入します。',
+        'display': ["OFF", "ON"],
         'default': 0
     },
     'autoBulk': {
-        'hint': 'Automatically set buildings to be bought in bulk after reincarnation',
-        'display': ['Auto Bulkbuy OFF', 'Auto Bulkbuy x10', 'Auto Bulkbuy x100'],
+        'hint': '転生後に一括購入する建物を自動的に設定する',
+        'display': ['OFF', 'x10', 'x100'],
         'default': 0
     },
     'autoBlacklistOff': {
-        'hint': 'Automatically turn off a blacklist once the goal for that blacklist is achieved',
-        'display': ['Auto Blacklist OFF', 'Auto Blacklist ON'],
+        'hint': 'ブラックリストの目標が達成されると、自動的にブラックリストをオフにします。',
+        'display': ['OFF', 'ON'],
         'default': 0
     },
     'blacklist': {
-        'hint': 'Blacklist purchases from the efficiency calculations',
-        'display': ['Blacklist OFF', 'Blacklist Mode SPEEDRUN', 'Blacklist Mode HARDCORE', 'Blacklist Mode GRANDMAPOCALYPSE', 'Blacklist Mode NO BUILDINGS'],
+        'hint': '効率計算からブラックリスト購入',
+        'display': ['OFF', 'SPEEDRUN', 'HARDCORE', 'GRANDMAPOCALYPSE', 'NO BUILDINGS'],
         'default': 0
     },
     'cursorLimit': {
-        'hint': 'Limit max number of cursors to keep Godzamok useful',
-        'display': ['Cursor Limit OFF', 'Cursor Limit ON'],
+        'hint': 'ゴザモクの有用性を維持するためにカーソルの最大数を制限する',
+        'display': ['OFF', 'ON'],
         'default': 0,
-        'extras': '<a class="option" id="cursorMax" onclick="updateCursorMax(\'cursorMax\');">${cursorMax} cursors</a>'
+        'extras': '<a class="option" id="cursorMax" onclick="updateCursorMax(\'cursorMax\');">${cursorMax} カーソル</a>'
     },
     'farmLimit': {
-        'hint': 'Limit max number of farms to keep Godzamok useful',
-        'display': ['Farm Limit OFF', 'Farm Limit ON'],
+        'hint': 'ゴザモクの有用性を維持するために農場の最大数を制限する',
+        'display': ['OFF', 'ON'],
         'default': 0,
-        'extras': '<a class="option" id="farmMax" onclick="updateFarmMax(\'farmMax\');">${farmMax} farms</a>'
+        'extras': '<a class="option" id="farmMax" onclick="updateFarmMax(\'farmMax\');">${farmMax} 農場</a>'
     },
     'towerLimit': {
-        'hint': 'Stop autobuying Wizard Towers at selected Max Mana, for spellcasting efficiency',
-        'display': ['Wizard Tower Cap OFF', 'Wizard Tower Cap ON'],
+        'hint': '魔法使いの塔の自動購入を停止します。',
+        'display': ['OFF', 'ON'],
         'default': 0,
-        'extras': '<a class="option" id="manaMax" onclick="updateManaMax(\'manaMax\');">${manaMax} max Mana</a>'
+        'extras': '<a class="option" id="manaMax" onclick="updateManaMax(\'manaMax\');">${manaMax} 最大マナ</a>'
     },
     'pastemode': {
-        'hint': 'Always autobuy the least efficient purchase. This is a stupid idea, you should never turn this on.',
-        'display': ['Pastemode OFF', 'Pastemode ON'],
+        'hint': '常に効率の悪いものを自動購入する。これはアホらしいので絶対にオンにしてはいけません。',
+        'display': ['OFF', 'ON'],
         'default': 0
     },
 
