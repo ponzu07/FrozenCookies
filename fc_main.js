@@ -157,7 +157,7 @@ var numberFormatters = [
     formatEveryThirdPower([
         '',
         ' million',
-        ' billion',
+        ' 億',
         ' trillion',
         ' quadrillion',
         ' quintillion',
