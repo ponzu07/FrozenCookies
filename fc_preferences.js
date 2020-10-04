@@ -82,22 +82,22 @@ FrozenCookies.preferenceValues = {
 
     // other auto options
     'autoOtherOptions':{
-        'hint':'Other automatic actions:'
+        'hint':'その他の自動動作:'
     },
     'autoAscend': {
-        'hint': 'Automatically ascend when your heavenly chip count hits a certain number. (Note:  this will skip the upgrade screen)',
-        'display': ["Autoascend OFF", "Autoascend ON"],
+        'hint': '天国のチップ数が一定数に達すると自動的に上昇します。(注：これでアップグレード画面はスキップされます)',
+        'display': ["OFF", "ON"],
         'default': 0,
-        'extras': '<a class="option" id="chipsToAscend" onclick="updateAscendAmount(\'HCAscendAmount\');">${HCAscendAmount} heavenly chips</a>'
+        'extras': '<a class="option" id="chipsToAscend" onclick="updateAscendAmount(\'HCAscendAmount\');">${HCAscendAmount} ヘブンリーチップス</a>'
     },
     'autoWrinkler': {
-        'hint': 'Automatically pop wrinklers efficiently (calculated timing to balance cookies vs. upgrades) or instantly',
-        'display': ['Autopop Wrinklers OFF', 'Autopop Wrinklers EFFICIENTLY', 'Autopop Wrinklers INSTANTLY'],
+        'hint': 'Wrinkler(Grandmapocalypseの虫)の自動撃退をする/しない',
+        'display': ['OFF', 'クッキー取得量最大になるよう撃退', '出現したら即撃退'],
         'default': 0
     },
     'autoSL': {
-        'hint': 'Automatically harvest sugar lumps when ripe, with option to automatically swap in Rigidel',
-        'display': ["Autoharvest SL OFF", "Autoharvest SL ON", "Autoharvest SL ON + AUTO RIGIDEL"],
+        'hint': '砂糖が完熟したら自動収穫する/しない。',
+        'display': ["OFF", "ON", "ON + AUTO RIGIDEL"],
         'default': 0
     },
     'autoGS': {
